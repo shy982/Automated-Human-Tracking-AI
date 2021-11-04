@@ -1,0 +1,7 @@
+conda install -c anaconda pip
+pip install numpy
+pip install shutil
+conda install -c conda-forge tensorflow
+conda install -c conda-forge keras
+conda install -c conda-forge opencv
+pip install face-recognition

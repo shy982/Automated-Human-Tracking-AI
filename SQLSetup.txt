@@ -1,0 +1,3 @@
+create database fyp;
+use fyp;
+create table our_guy_table2(area varchar(20), time varchar(25),iframe varchar(250),output varchar(20));

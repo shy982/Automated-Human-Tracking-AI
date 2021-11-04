@@ -1,0 +1,115 @@
+
+
+/* Video */
+
+section.video {
+    background-image: url(../images/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #172238;
+    padding: 120px 0px;
+}
+
+section.video .left-content {
+  color: #fff;
+}
+
+section.video .left-content span {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+section.video .left-content h4 {
+  position: relative;
+    margin-top: 20px;
+    font-size: 30px;
+    left:625px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+section.video .left-content h4 em {
+    font-style: normal;
+    left:500px;
+    color: #f5a425;
+}
+
+section.video .left-content .main-button {
+  margin-top: 30px;
+}
+
+.video-item {
+  position: relative;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 767px) {
+
+  section.video .left-content {
+    margin-bottom: 45px;
+  }
+
+  section.video .first-item .first-content h4,
+  section.video .second-item .second-content h4 {
+    text-align: center;
+  }
+
+}
+
+.video-item figure {
+  position: relative;
+  width: 40%;
+  font-size: 0;
+}
+.video-item figure img {
+  width: 100%;
+}
+.video-item figure a:before {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  width: 60px;
+  height: 60px;
+  margin-top: -32.5px;
+  margin-left: -32.5px;
+  border-radius: 50%;
+  background-color: #f5a425;
+  z-index: 10;
+}
+.video-item figure a:after {
+  content: '';
+  position: absolute;
+  bottom: 27.5px;
+  right: 20px;
+  margin-top: -12.5px;
+  margin-left: -7px;
+  border: solid 13px transparent;
+  border-left: solid 20px;
+  border-left-color: #fff;
+  z-index: 10;
+}
+.video-item figure a:hover:before {
+  background-color: #f5a425;
+}
+
+.video-item .video-caption {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(250,250,250,0.75);
+    height: 80px;
+    width: 40%;
+    padding: 27px 30px;
+    bottom: 0;
+}
+
+.video-item .video-caption h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
